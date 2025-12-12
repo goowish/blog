@@ -1,3 +1,3 @@
-var posts=[];function toRandomPost(){
+var posts=["2025/12/12/新站感言/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
